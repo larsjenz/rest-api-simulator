@@ -16,7 +16,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 
-var api = require('./vzug-api.js');
+var api = require('./rest-api.js');
 app.get('/getModel', api.getModel );
 app.get('/getModelDescription', api.getModelDescription );
 app.get('/getMachineType', api.getMachineType );

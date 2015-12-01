@@ -4,7 +4,6 @@ exports.getModel = function( req, res ) {
 	res.send('MSLQ');
 }
 
-
 exports.getModelDescription = function(req, res) {
 	res.send('Combi-Steam MSLQ');
 }
