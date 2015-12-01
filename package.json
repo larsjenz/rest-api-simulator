@@ -1,13 +1,16 @@
 {
-	"name": "NodejsStarterApp",
+	"name": "rest-api-simulator",
 	"version": "0.0.1",
-	"description": "A sample nodejs app for Bluemix",
+	"description": "A prototype simulator for V-ZUG based appliances.",
 	"scripts": {
 		"start": "node app.js"
 	},
 	"dependencies": {
-		"express": "4.12.x",
-		"cfenv": "1.0.x"
+		"express": "^4.12.x",
+		"express-session": "^1.11.x",
+		"ejs": "^2.3.4",
+		"body-parser": "^1.13.x",
+        "cloudant": "^1.0.x"
 	},
 	"repository": {},
 	"engines": {

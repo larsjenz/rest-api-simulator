@@ -14,7 +14,7 @@ exports.getMachineType = function(req,res){
 }
 
 exports.getSerialNumber = function(req,res){
-	res.send('12003123456');
+	res.send('811858972432');
 }
 
 exports.isActive = function(req, res){
@@ -26,7 +26,7 @@ exports.getCurrentStatus = function(req,res){
 }
 
 exports.getDeviceName = function(req,res){
-	res.send('Stanley Steamer');
+	res.send('Steamer of Steamship Shipyards');
 }
 
 exports.setDeviceName = function(req,res){
