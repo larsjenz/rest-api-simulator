@@ -6,3 +6,5 @@ applications:
   name: rest-api-simulator
   host: rest-api-simulator
   disk_quota: 1024M
+  services:
+    - V-ZUG Preferences
