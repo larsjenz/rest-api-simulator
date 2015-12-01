@@ -1,1 +1,3 @@
-launchConfigurations/
+/apis.txt
+/node_modules/
+/rest-api-simulator_VCAP_Services.json
