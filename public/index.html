@@ -25,14 +25,22 @@ V-ZUG device. The runtime used is Node.js provided by Bluemix.</p>
       <td></td>
       <td>
       <p><a href="getDeviceName" target="_blank">Get
-Device Name</a></p>
-      <button onclick="getDeviceName()">Get Device Name</button>
+Device Name</a>
+      </p>
+<button onclick="getModel()">Get Model</button>
       <script>
-function getDeviceName() {
-window.open("http://rest-api-simulator.mybluemix.net/getDeviceName");
+function getModel() {
+window.open("http://rest-api-simulator.mybluemix.net/getModel");
 }
       </script>
-	</td>
+<button onclick="getDeviceName()">Get Device Name</button>
+      <script>
+function getDeviceName() {
+window.open("http://rest-api-simulator.mybluemix.net/getDeviceName","height=100","width=100");
+}
+<!-- URL,name,specs,replace
+-->
+      </script></td>
     </tr>
 <!--
 <tr>
@@ -45,6 +53,4 @@ Device Name</a> </td>
 </table>
 </body>
 </html>
-
-
 
