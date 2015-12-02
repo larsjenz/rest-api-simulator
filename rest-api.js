@@ -21,7 +21,7 @@ exports.isActive = function(req, res){
 }
 
 exports.getCurrentStatus = function(req,res){
-	res.send('Program selected: Regenerate \nTemperature: 110° Celsius');
+	res.send('Program selected: Regenerate\nTemperature: 110° Celsius');
 }
 
 exports.getDeviceName = function(req,res){
