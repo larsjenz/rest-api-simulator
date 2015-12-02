@@ -17,21 +17,31 @@
       <td>
       <h1>V-ZUG Simulator</h1>
       <p>This is an example of a simple hard coded REST service
-provider simulating a
-V-ZUG device. The runtime used is Node.js provided by Bluemix.</p>
+provider simulating a V-ZUG device. The runtime used is Node.js
+provided by Bluemix.</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>
+<!--
       <p><a href="getDeviceName" target="_blank">Get
 Device Name</a>
       </p>
+-->
       <p>
       <button onclick="getModel()">Get Model</button>
       <script>
 function getModel() {
-window.open("http://rest-api-simulator.mybluemix.net/getModel");
+window.open("http://rest-api-simulator.mybluemix.net/getModel","height=100","width=400");
+}
+      </script></p>
+      <p>
+      <button onclick="getModelDescription()">Get Model
+Description</button>
+      <script>
+function getModelDescription() {
+window.open("http://rest-api-simulator.mybluemix.net/getModelDescription","height=100","width=400");
 }
       </script></p>
       <p>
@@ -39,10 +49,16 @@ window.open("http://rest-api-simulator.mybluemix.net/getModel");
 Device Name</button>
       <script>
 function getDeviceName() {
-window.open("http://rest-api-simulator.mybluemix.net/getDeviceName","height=50","width=200");
+window.open("http://rest-api-simulator.mybluemix.net/getDeviceName","height=100","width=400");
 }
-<!-- URL,name,specs,replace
--->
+      </script></p>
+      <p>
+      <button onclick="getCurrentStatus()">Get
+Current Status</button>
+      <script>
+function getCurrentStatus() {
+window.open("http://rest-api-simulator.mybluemix.net/getCurrentStatus","height=100","width=400");
+}
       </script></p>
       <p></p>
       </td>

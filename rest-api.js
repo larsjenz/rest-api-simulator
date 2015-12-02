@@ -21,11 +21,11 @@ exports.isActive = function(req, res){
 }
 
 exports.getCurrentStatus = function(req,res){
-	res.send('temperature: 40C\nprogram: chosen');
+	res.send('Program: Selected and executing \n Temperature: 80° Celsius');
 }
 
 exports.getDeviceName = function(req,res){
-	res.send('Steamer of Steamship Shipyards');
+	res.send('The Steamer of Steamship Shipyards');
 }
 
 exports.setDeviceName = function(req,res){
