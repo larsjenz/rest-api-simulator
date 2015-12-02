@@ -3,10 +3,10 @@
 <head>
   <title>V-ZUG Simulator</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport"
- content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="stylesheets/style.css">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1"
+ name="viewport">
+  <link href="stylesheets/style.css" rel="stylesheet">
 </head>
 <body>
 <table>
@@ -16,15 +16,23 @@
  src="images/happy_washing_machine.jpg"></td>
       <td>
       <h1>V-ZUG Simulator</h1>
-      <p>This is an example of a simple hard coded REST service provider simulating a
+      <p>This is an example of a simple hard coded REST service
+provider simulating a
 V-ZUG device. The runtime used is Node.js provided by Bluemix.</p>
       </td>
     </tr>
     <tr>
       <td></td>
-      <td><a href="getDeviceName" target="_blank">Get
-Device Name</a>
-      </td>
+      <td>
+      <p><a href="getDeviceName" target="_blank">Get
+Device Name</a></p>
+      <button onclick="getDeviceName()">Get Device Name</button>
+      <script>
+function getDeviceName() {
+window.open("http://rest-api-simulator.mybluemix.net/getDeviceName");
+}
+      </script>
+	</td>
     </tr>
 <!--
 <tr>
@@ -37,5 +45,6 @@ Device Name</a> </td>
 </table>
 </body>
 </html>
+
 
 
