@@ -25,7 +25,7 @@ exports.getCurrentStatus = function(req,res){
 }
 
 exports.getDeviceName = function(req,res){
-	res.send('The Steamer of Steamship Shipyards');
+	res.send('Stanley Steamer');
 }
 
 exports.setDeviceName = function(req,res){
